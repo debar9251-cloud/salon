@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services | HEADSHOT Lifestyle Saloon</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="header">
+  <div class="container nav-wrapper">
+    <a href="index.html" class="logo"><img src="headshot.png" alt="HEADSHOT Logo"></a>
+    <nav class="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="services.html" class="active">Services</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="reviews.html">Reviews</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a href="contact.html" class="btn btn-yellow nav-book">Book Now</a>
+    <button class="hamburger" aria-label="Toggle Menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<div class="mobile-nav">
+  <a href="index.html">Home</a><a href="services.html">Services</a><a href="gallery.html">Gallery</a>
+  <a href="pricing.html">Pricing</a><a href="reviews.html">Reviews</a><a href="contact.html">Contact</a>
+  <a href="contact.html" class="btn btn-yellow" style="margin-top:20px;text-align:center;">Book Now</a>
+</div>
+<div class="mobile-nav-overlay"></div>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <h1>OUR <span>SERVICES</span></h1>
+  <p>Experienced hands. Elite results. Every single time.</p>
+</section>
+
+<!-- MAIN SERVICES -->
+<section class="section">
+  <div class="container">
+    <div class="section-title reveal">
+      <h2>BARBERSHOP <span>SERVICES</span></h2>
+      <div class="title-line"></div>
+    </div>
+    <div class="services-grid">
+      <div class="service-card reveal reveal-delay-1">
+        <i class="fas fa-cut icon"></i>
+        <h3>Haircut</h3>
+        <p>Personalized consultation, precise fade or scissor cut tailored to your structure.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-2">
+        <i class="fas fa-id-card icon"></i>
+        <h3>Beard Trim</h3>
+        <p>Sharp outlines, line-ups, and executive beard shaping with hot towel finish.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-3">
+        <i class="fas fa-spray-can icon"></i>
+        <h3>Hair Styling</h3>
+        <p>Blow-dry and professional product application. Leave looking like a boss.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-4">
+        <i class="fas fa-spa icon"></i>
+        <h3>Hydra Facial</h3>
+        <p>Korean-grade hydration therapy to cleanse and restore skin's natural glow.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-1">
+        <i class="fas fa-hand-holding-heart icon"></i>
+        <h3>Hair Treatment</h3>
+        <p>Keratin, rebonding, and scalp nourishment for stronger, smoother hair.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-2">
+        <i class="fas fa-hot-tub icon"></i>
+        <h3>Head Massage</h3>
+        <p>Rhythmic scalp tension therapy — stress relief in 20 minutes.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-3">
+        <i class="fas fa-palette icon"></i>
+        <h3>Hair Coloring</h3>
+        <p>Bold global color, highlights, or subtle gray blending by color specialists.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-4">
+        <i class="fas fa-hand-sparkles icon"></i>
+        <h3>Manicure / Pedicure</h3>
+        <p>Nail care and grooming beyond the hairline — a true lifestyle upgrade.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SPECIALIZED SERVICES -->
+<section class="section section--dark">
+  <div class="container">
+    <div class="section-title reveal">
+      <h2>SPECIALIZED <span>TREATMENTS</span></h2>
+      <div class="title-line"></div>
+      <p>Advanced services for the modern grooming enthusiast.</p>
+    </div>
+    <div class="spec-grid">
+      <div class="spec-item reveal"><i class="fas fa-droplet"></i><span>Hydra Facial</span></div>
+      <div class="spec-item reveal reveal-delay-1"><i class="fas fa-star-of-life"></i><span>Korean Hydra Facial</span></div>
+      <div class="spec-item reveal reveal-delay-2"><i class="fas fa-palette"></i><span>Hair Color</span></div>
+      <div class="spec-item reveal reveal-delay-3"><i class="fas fa-wand-magic-sparkles"></i><span>Rebonding</span></div>
+      <div class="spec-item reveal"><i class="fas fa-hand-holding-heart"></i><span>Massage Therapy</span></div>
+      <div class="spec-item reveal reveal-delay-1"><i class="fas fa-leaf"></i><span>Hair Treatment</span></div>
+      <div class="spec-item reveal reveal-delay-2"><i class="fas fa-hand-sparkles"></i><span>Manicure / Pedicure</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- INTERACTIVE SERVICE MENU -->
+<section class="section" id="interactive-menu">
+  <div class="container">
+    <div class="section-title reveal">
+      <h2>INTERACTIVE <span>MENU</span></h2>
+      <div class="title-line"></div>
+      <p>Explore our treatments to find the perfect style for you.</p>
+    </div>
+    <div class="interactive-services reveal">
+      <div class="service-buttons">
+         <button class="service-btn active" data-target="haircut">Haircut</button>
+         <button class="service-btn" data-target="beard">Beard Trim</button>
+         <button class="service-btn" data-target="styling">Hair Styling</button>
+         <button class="service-btn" data-target="hydra">Hydra Facial</button>
+         <button class="service-btn" data-target="korean">Korean Hydra Facial</button>
+         <button class="service-btn" data-target="treatment">Hair Treatment</button>
+         <button class="service-btn" data-target="headmassage">Head Massage</button>
+         <button class="service-btn" data-target="color">Hair Coloring</button>
+         <button class="service-btn" data-target="rebonding">Rebonding</button>
+         <button class="service-btn" data-target="massage">Massage Therapy</button>
+         <button class="service-btn" data-target="mani">Manicure / Pedicure</button>
+      </div>
+      
+      <div class="service-display">
+      
+         <!-- Haircut -->
+         <div class="service-panel active" id="panel-haircut">
+           <img src="haircut_service.png" alt="Haircut">
+           <div class="service-panel-content">
+             <h3 class="service-panel-title">Haircut</h3>
+             <p class="service-panel-desc">Personalized consultation and precise fade or scissor cut tailored to your face structure.</p>
+             <div class="service-panel-price">Starting from ৳400</div>
+           </div>
+         </div>
+         
+         <!-- Beard Trim -->
+         <div class="service-panel" id="panel-beard">
+           <img src="beard_trim_service.png" alt="Beard Trim">
+           <div class="service-panel-content">
+             <h3 class="service-panel-title">Beard Trim</h3>
+             <p class="service-panel-desc">Sharp outlines, line-ups, and executive beard shaping with a hot towel finish.</p>
+             <div class="service-panel-price">Starting from ৳250</div>
+           </div>
+         </div>
+         
+         <!-- Hair Styling -->
+         <div class="service-panel" id="panel-styling">
+           <img src="hair_styling_service.png" alt="Hair Styling">
+           <div class="service-panel-content">
+             <h3 class="service-panel-title">Hair Styling</h3>
+             <p class="service-panel-desc">Professional blow-dry and styling product application so you leave looking sharp.</p>
+             <div class="service-panel-price">Starting from ৳200</div>
+           </div>
+         </div>
+         
+         <!-- Hydra Facial -->
+         <div class="service-panel" id="panel-hydra">
+           <img src="hydra_facial_service.png" alt="Hydra Facial">
+           <div class="service-panel-content">
+             <h3 class="service-panel-title">Hydra Facial</h3>
+             <p class="service-panel-desc">Advanced hydration facial treatment to cleanse and restore the skin’s natural glow.</p>
+             <div class="service-panel-price">Starting from ৳1500</div>
+           </div>
+         </div>
+         
+         <!-- Korean Hydra Facial -->
+         <div class="service-panel" id="panel-korean">
+           <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800" alt="Korean Hydra Facial">
+           <div class="service-panel-content">
+             <h3 class="service-panel-title">Korean Hydra Facial</h3>
+             <p class="service-panel-desc">Premium Korean hydration therapy for deep skin nourishment and smooth texture.</p>
+             <div class="service-panel-price">Starting from ৳2500</div>
+           </div>
+         </div>
+         
+         <!-- Hair Treatment -->
+         <div class="service-panel" id="panel-treatment">
+           <img src="https://images.unsplash.com/photo-1519824145371-296894a0daa9?auto=format&fit=crop&w=800" alt="Hair Treatment">
+           <div class="service-panel-content">
+             <h3 class="service-panel-title">Hair Treatment</h3>
+             <p class="service-panel-desc">Keratin, rebonding, and scalp nourishment treatments for stronger, healthier hair.</p>
+             <div class="service-panel-price">Starting from ৳1200</div>
+           </div>
+         </div>
+         
+         <!-- Head Massage -->
+         <div class="service-panel" id="panel-headmassage">
+           <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=800" alt="Head Massage">
+           <div class="service-panel-content">
+             <h3 class="service-panel-title">Head Massage</h3>
+             <p class="service-panel-desc">Rhythmic scalp therapy designed to relieve stress and improve circulation.</p>
+             <div class="service-panel-price">Starting from ৳400</div>
+           </div>
+         </div>
+         
+         <!-- Hair Coloring -->
+         <div class="service-panel" id="panel-color">
+           <img src="https://images.unsplash.com/photo-1620331311520-246422fd82f9?auto=format&fit=crop&w=800" alt="Hair Coloring">
+           <div class="service-panel-content">
+             <h3 class="service-panel-title">Hair Coloring</h3>
+             <p class="service-panel-desc">Global color, highlights, and gray blending by professional color specialists.</p>
+             <div class="service-panel-price">Starting from ৳800</div>
+           </div>
+         </div>
+         
+         <!-- Rebonding -->
+         <div class="service-panel" id="panel-rebonding">
+           <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=800" alt="Rebonding">
+           <div class="service-panel-content">
+             <h3 class="service-panel-title">Rebonding</h3>
+             <p class="service-panel-desc">Hair straightening and smoothing treatment for long-lasting sleek hair.</p>
+             <div class="service-panel-price">Starting from ৳3000</div>
+           </div>
+         </div>
+         
+         <!-- Massage Therapy -->
+         <div class="service-panel" id="panel-massage">
+           <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800" alt="Massage Therapy">
+           <div class="service-panel-content">
+             <h3 class="service-panel-title">Massage Therapy</h3>
+             <p class="service-panel-desc">Relaxing therapeutic massage to release tension and improve comfort.</p>
+             <div class="service-panel-price">Starting from ৳1000</div>
+           </div>
+         </div>
+         
+         <!-- Manicure / Pedicure -->
+         <div class="service-panel" id="panel-mani">
+           <img src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&w=800" alt="Manicure / Pedicure">
+           <div class="service-panel-content">
+             <h3 class="service-panel-title">Manicure / Pedicure</h3>
+             <p class="service-panel-desc">Complete nail care and grooming for clean, polished hands and feet.</p>
+             <div class="service-panel-price">Starting from ৳600</div>
+           </div>
+         </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-band">
+  <div class="container">
+    <h2 class="reveal">READY TO LOOK YOUR BEST?</h2>
+    <p class="reveal">Book your appointment now at any branch.</p>
+    <div class="cta-band-btns reveal">
+      <a href="contact.html" class="btn btn-yellow">Book Appointment</a>
+      <a href="pricing.html" class="btn btn-outline">View Pricing</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="logo"><img src="headshot-logo.png" alt="HEADSHOT Logo"></a>
+        <p>Professional grooming for men who want to stand out.</p>
+        <div class="social-row">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="footer-col"><h4>Pages</h4><ul>
+        <li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li><li><a href="pricing.html">Pricing</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul></div>
+      <div class="footer-col"><h4>Contact</h4><ul>
+        <li><a href="tel:01611567776">Mirpur 2: 01611567776</a></li>
+        <li><a href="tel:01810916479">Uttara: 01810916479</a></li>
+        <li><a href="tel:01317778691">Chittagong: 01317778691</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom">&copy; 2026 HEADSHOT Lifestyle Saloon. All Rights Reserved.</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

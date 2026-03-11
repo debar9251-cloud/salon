@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | HEADSHOT Lifestyle Saloon</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="header">
+  <div class="container nav-wrapper">
+    <a href="index.html" class="logo"><img src="headshot.png" alt="HEADSHOT Logo"></a>
+    <nav class="nav-menu">
+      <a href="index.html">Home</a><a href="services.html">Services</a>
+      <a href="gallery.html">Gallery</a><a href="pricing.html">Pricing</a>
+      <a href="reviews.html">Reviews</a><a href="contact.html" class="active">Contact</a>
+    </nav>
+    <a href="contact.html" class="btn btn-yellow nav-book">Book Now</a>
+    <button class="hamburger"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<div class="mobile-nav">
+  <a href="index.html">Home</a><a href="services.html">Services</a><a href="gallery.html">Gallery</a>
+  <a href="pricing.html">Pricing</a><a href="reviews.html">Reviews</a><a href="contact.html">Contact</a>
+  <a href="contact.html" class="btn btn-yellow" style="margin-top:20px;text-align:center;">Book Now</a>
+</div>
+<div class="mobile-nav-overlay"></div>
+
+<section class="page-hero">
+  <h1>BOOK YOUR <span>HEADSHOT</span></h1>
+  <p>Walk-ins welcome. Appointments preferred. Open 30 days.</p>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="contact-grid">
+
+      <!-- Left: Info -->
+      <div>
+        <!-- Phone Numbers -->
+        <div class="contact-card reveal">
+          <h3>Branch Phone Numbers</h3>
+          <ul class="phone-list">
+            <li><span>Mirpur 2</span><strong>01611567776</strong></li>
+            <li><span>Mirpur 11</span><strong>01611567776</strong></li>
+            <li><span>Uttara (R.M Plaza)</span><strong>01810916479</strong></li>
+            <li><span>Bashundhara R/A</span><strong>01810916479</strong></li>
+            <li><span>Chittagong (Lalkhan Bazar)</span><strong>01317778691</strong></li>
+            <li><span>Rajshahi (Ranibazar)</span><strong>01317778691</strong></li>
+            <li><span>Sylhet</span><strong>01317778691</strong></li>
+          </ul>
+        </div>
+
+        <!-- Hours -->
+        <div class="contact-card reveal" style="margin-top: 25px;">
+          <h3>Opening Hours</h3>
+          <div class="contact-item">
+            <i class="fas fa-clock"></i>
+            <div>
+              <h4>Daily Hours</h4>
+              <p>10:00 AM – 12:00 AM (Midnight)</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-calendar-check"></i>
+            <div>
+              <h4>Days Open</h4>
+              <p>Open 30 Days a Month — No Days Off!</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-whatsapp"></i>
+            <div>
+              <h4>WhatsApp Booking</h4>
+              <p><a href="https://wa.me/8801611567776" target="_blank" style="color: var(--yellow);">Click to Book via WhatsApp</a></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Social -->
+        <div class="contact-card reveal" style="margin-top: 25px;">
+          <h3>Follow Us</h3>
+          <div style="display: flex; gap: 15px; flex-wrap: wrap; margin-top: 5px;">
+            <a href="#" class="btn btn-yellow" style="gap: 8px;"><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="#" class="btn btn-outline-yellow" style="gap: 8px;"><i class="fab fa-facebook-f"></i> Facebook</a>
+            <a href="#" class="btn btn-outline-yellow" style="gap: 8px;"><i class="fab fa-youtube"></i> YouTube</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Form -->
+      <div class="contact-card reveal">
+        <h3>Send a Message</h3>
+        <p style="color: var(--gray); margin-bottom: 25px; font-size: 0.9rem;">Fill out the form and we'll get back to you shortly.</p>
+        <form id="contact-form" class="contact-form">
+          <input type="text" name="name" placeholder="Your Full Name" required>
+          <input type="tel" name="phone" placeholder="Your Phone Number" required>
+          <select name="branch">
+            <option value="">Select Your Nearest Branch</option>
+            <option>Mirpur 11</option>
+            <option>Mirpur 2</option>
+            <option>Bashundhara R/A</option>
+            <option>Uttara — R.M Plaza</option>
+            <option>Rajshahi — Ranibazar</option>
+            <option>Chittagong — Lalkhan Bazar</option>
+            <option>Sylhet</option>
+          </select>
+          <select name="service">
+            <option value="">Select Service / Package</option>
+            <option>Package 1 — ৳400</option>
+            <option>Package 2 — ৳700</option>
+            <option>Silver Combo — ৳1000</option>
+            <option>Premium Combo — ৳3500</option>
+            <option>Hydra Facial</option>
+            <option>Korean Hydra Facial</option>
+            <option>Hair Coloring</option>
+            <option>Rebonding</option>
+            <option>Massage</option>
+            <option>Manicure / Pedicure</option>
+          </select>
+          <input type="text" name="date" placeholder="Preferred Date & Time">
+          <textarea name="message" placeholder="Any special request or message..."></textarea>
+          <button type="submit" class="btn btn-yellow btn-block">Send Booking Request</button>
+        </form>
+      </div>
+
+    </div>
+
+    <!-- Branches Grid -->
+    <div class="section-title reveal" style="margin-top: 80px;">
+      <h2>FIND A <span>BRANCH</span></h2>
+      <div class="title-line"></div>
+    </div>
+    <div class="branch-grid">
+      <div class="branch-card reveal"><i class="fas fa-map-marker-alt"></i><h4>Mirpur 11</h4><span>Dhaka</span></div>
+      <div class="branch-card reveal reveal-delay-1"><i class="fas fa-map-marker-alt"></i><h4>Mirpur 2</h4><span>Dhaka</span></div>
+      <div class="branch-card reveal reveal-delay-2"><i class="fas fa-map-marker-alt"></i><h4>Bashundhara R/A</h4><span>Dhaka</span></div>
+      <div class="branch-card reveal reveal-delay-3"><i class="fas fa-map-marker-alt"></i><h4>Uttara</h4><span>R.M Plaza, Dhaka</span></div>
+      <div class="branch-card reveal"><i class="fas fa-map-marker-alt"></i><h4>Rajshahi</h4><span>Ranibazar</span></div>
+      <div class="branch-card reveal reveal-delay-1"><i class="fas fa-map-marker-alt"></i><h4>Chittagong</h4><span>Lalkhan Bazar</span></div>
+      <div class="branch-card reveal reveal-delay-2"><i class="fas fa-map-marker-alt"></i><h4>Sylhet</h4><span>City Center</span></div>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="logo"><img src="headshot-logo.png" alt="HEADSHOT Logo"></a>
+        <p>Professional grooming for men who want to stand out. Branches across Bangladesh.</p>
+        <div class="social-row">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+      <div class="footer-col"><h4>Pages</h4><ul>
+        <li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li><li><a href="pricing.html">Pricing</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+      </ul></div>
+      <div class="footer-col"><h4>Hotline</h4><ul>
+        <li><a href="tel:01611567776">Mirpur: 01611567776</a></li>
+        <li><a href="tel:01810916479">Uttara: 01810916479</a></li>
+        <li><a href="tel:01317778691">CTG: 01317778691</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom">&copy; 2026 HEADSHOT Lifestyle Saloon. All Rights Reserved. Open 30 Days — 10AM to 12AM.</div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
